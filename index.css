@@ -1,0 +1,173 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: darkred;
+  background-size: cover;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: goldenrod;
+  font-size: 2em; 
+}
+
+#message-el {
+  font-style: Tahoma;
+  font-size: 1.2em;
+}
+
+button {
+  color:goldenrod;
+  width: 150px;
+  background: #016f32;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px; 
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5em; /* Smaller font size for smaller screens */
+  }
+
+  #message-el {
+    font-size: 1em; /* Adjusted font size */
+  }
+
+  button {
+    width: 100px; /* Smaller button for smaller screens */
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
+/* Tablets and Small Laptops */
+@media (min-width: 601px) and (max-width: 1024px) {
+  h1 {
+    font-size: 1.8em; /* Slightly smaller font size for medium screens */
+  }
+
+  #message-el {
+    font-size: 1.1em; /* Adjusted font size */
+  }
+
+  button {
+    width: 120px; /* Slightly larger button for medium screens */
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+}
+
+/* Desktops and Larger Screens */
+@media (min-width: 1025px) {
+  h1 {
+    font-size: 2em; /* Default font size for larger screens */
+  }
+
+  #message-el {
+    font-size: 1.2em; /* Default font size */
+  }
+
+  button {
+    width: 150px; /* Default button width */
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: darkred;
+  background-size: cover;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: goldenrod;
+}
+
+#message-el {
+  font-style: Tahoma;
+}
+
+/* Button Styles */
+button {
+  color: goldenrod;
+  width: 100px;
+  background: #016f32;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  margin: 10px 0; /* Adjust margin to create space between buttons */}
+
+/* Button Container */
+.button-container {
+  display: flex;
+  flex-direction: column; /* Stack buttons vertically */
+  align-items: center; /* Center buttons horizontally */
+}
+
+/* Media Queries for Responsiveness */
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+  #message-el {
+    font-size: 1em;
+  }
+
+  button {
+    width: 250px; /* Smaller button for smaller screens */
+  }
+}
+
+/* Tablets and Small Laptops */
+@media (min-width: 601px) and (max-width: 1024px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  #message-el {
+    font-size: 1.1em;
+  }
+
+  button {
+    width: 120px;
+  }
+}
+
+/* Desktops and Larger Screens */
+@media (min-width: 1025px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  #message-el {
+    font-size: 1.2em;
+  }
+
+  button {
+    width: 150px;
+  }
+}
